@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+
+body{
+    background: #FFB740 ; 
+    width: 100%;
+}
+
+.grand-center{
+    padding-top: 25px;
+    margin: auto;
+    width: 50%;
+}
+.center{
+    margin: auto;
+}
+.image{
+    width: 125px;
+    margin: auto;
+}
+@media only screen and (max-width:425px) {
+    .grand-center{
+        width: 60%;
+    }
+    .image{
+        width: 100px;
+    }
+    .intro{
+        font-size: small !important;
+    }
+    .button{
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+    .h2tile{
+        font-size: 26px !important;
+    }
+
+}
+
+.image img{
+    border-radius: 20%;
+    width: 100%;
+}
+
+
+
+.nameandinfo{
+    text-align: center;
+    color: #0F044C;
+}
+
+.name{
+    font-size: 24px;
+}
+
+.intro{
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.social_buttons{
+    width:220px;
+    margin: auto;
+    padding-top: 5px;
+}
+.social_buttons a{
+    padding-right: 10px;
+}
+.social_buttons a svg{
+    transition: 200ms;
+    fill: #0F044C;
+}
+.social_buttons a:hover svg{
+    transform: scale(1.3);
+}
+
+.social{
+    /* margin: auto; */
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social h2{
+    font-size: 30px;
+}
+
+.social .buttons{
+    margin-top: 25px;
+    text-align: start;  
+}
+.social .buttons .button{
+    background-color: white;   
+    transition: 400ms;
+    color: black;
+    text-decoration: none;
+    display: flex !important;
+    box-shadow: 0 20px 50px rgb(255, 255, 255);
+    margin-top: 19.5px;
+    width: 79%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.social .buttons .button:hover{
+    transform: scale(1.1);
+}
+.social .buttons .button h4{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.social .buttons .button img{
+    margin: 10px;
+}
+.social .buttons .button h4{
+    font-size: 25px;
+}
